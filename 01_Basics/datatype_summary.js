@@ -33,3 +33,29 @@ const myfunction = function(){
     
 }
 console.log(typeof outsideTemp);
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+//Stack(primitive),Heap(Non-Primitive)
+
+let myYOutube = "kanikadaksh.com"
+let anothername = myYOutube
+anothername  = "kanikajavascript"
+console.log(anothername);
+console.log(myYOutube);
+
+
+ let userOne ={
+    email:"user@google.com",
+    upi:"user@pyl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "meenakshi@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
